@@ -1,0 +1,11 @@
+1. In Node-Red de Palette "node-red-contrib-tuya" Installeren
+2. Importeer bijgevoegde flow (om te testen)
+3. Pas de 'Tuya' node aan met de juiste IP, ID en Key van het device dat je wil bedienen
+4. Zet met de originele Tuya app (op je telefoon) de lamp (of het device) AAN
+5. In Node-Red voer de 'request' uit (klik op het blauwe vierkantje van de 'request' node)
+6. In DEBUG open de 'payload' en 'dps'
+7. Zet de lamp nu uit met de app
+8. Voer de request opnieuw uit
+9. Vergelijk de payload met de vorige, één van de variabelen is van TRUE naar FALSE gegaan. Dit ID heb je nodig.
+10. Er zijn 2 "set" nodes (ééntje voor TRUE en ééntje voor FALSE). Pas deze aan met het juiste ID en DEPLOY
+11. Als je de set nodes uitvoert zou de lamp nu aan/uit moeten gaan (klik op het blauwe vierkantje van de nodes)
